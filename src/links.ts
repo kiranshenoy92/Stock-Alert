@@ -152,6 +152,7 @@ export const links: Link[] = [
     postal_code: "560076",
     type: LinkType.VIJAYA_SALES
   },
+  ///PPG WORKS ONLY WHEN HEADLESS (Line 40 in chakPages.ts) IS false
   {
     name: "Prepaidgamercard PS5 Disc",
     url: "https://prepaidgamercard.com/product/playstation-5-console-ps5/",

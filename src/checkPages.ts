@@ -165,6 +165,7 @@ export const checkPages = async () => {
           break;
         }
 
+        ///PPG WORKS ONLY WHEN HEADLESS (Line 40) IS false
         case LinkType.PPG: {
           const addToCartButton = await page.$(
             'form.cart button.single_add_to_cart_button', {
