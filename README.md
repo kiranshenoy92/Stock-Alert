@@ -1,8 +1,8 @@
-# Be smart about hunting for a PS5
+# Be smart about hunting for a Product
 
 ## Stop wasting your time on refreshing those pages.
 
-A simple app that will check a given list of Amazon's (and other stores) pages for PS5 stock.
+A simple app that will check a given list of Amazon's (and other stores) pages for product stock.
 
 ## Getting Started
 
