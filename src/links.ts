@@ -2,7 +2,7 @@ export type Link = {
   name: string;
   url: string;
   type: LinkType;
-  postal_code?: string
+  postal_code: string
 };
 
 export enum LinkType {
@@ -27,56 +27,67 @@ export const links: Link[] = [
   {
     name: "Amazon PS5 Disc",
     url: "https://www.amazon.in/dp/B08FV5GC28",
+    postal_code: "560076",
     type: LinkType.AMAZON
   },
   {
     name: "Flipkart PS5 Disc",
     url: "https://www.flipkart.com/sony-playstation-5-cfi-1008a01r-825-gb-astro-s-playroom/p/itma0201bdea62fa",
+    postal_code: "560076",
     type: LinkType.FLIPKART
   },
   {
     name: "Amazon PS5 Disc/HD Cam Bundle",
     url: "https://www.amazon.in/PS5TM-console-HD-camera-PlayStation%C2%AE5/dp/B08NTT4RTQ",
+    postal_code: "560076",
     type: LinkType.AMAZON
   },
   {
     name: "Flipkart PS5 Digital",
     url: "https://www.flipkart.com/sony-playstation-5-cfi-1008b01r-825-gb-astro-s-playroom/p/itm8bf74f8d0b890",
+    postal_code: "560076",
     type: LinkType.FLIPKART
   },
   {
     name: "Amazon PS5 Digital/Pulse headset Bundle",
     url: "https://www.amazon.in/PS5TM-Digital-PULSE-wireless-headset/dp/B08NTV1QDX",
+    postal_code: "560076",
     type: LinkType.AMAZON
   },
   {
     name: "Flipkart Series X",
     url: "https://www.flipkart.com/microsoft-xbox-series-x-1024-gb/p/itm63ff9bd504f27",
+    postal_code: "560076",
     type: LinkType.FLIPKART
   },
   {
     name: "Amazon PS5 Digital Edition",
     url: "https://www.amazon.in/Sony-CFI-1008B01R-PlayStation-Digital-Edition/dp/B08FVRQ7BZ",
+    postal_code: "560076",
     type: LinkType.AMAZON
   },
   {
     name: "Sony Center PS5 Disc",
     url: "https://shopatsc.com/collections/playstation-5/products/playstation-5-console-store",
+    postal_code: "560076",
     type: LinkType.SONY_CENTER
   },
   {
     name: "Amazon PS5 Digital/DualSense™ charging station Bundle",
     url: "https://www.amazon.in/PS5TM-Digital-DualSenseTM-charging-station/dp/B08NTVHTPT",
+    postal_code: "560076",
     type: LinkType.AMAZON,
   },
   {
     name: "Sony Center PS5 Digital",
     url: "https://shopatsc.com/collections/playstation-5/products/playstation5-digital-edition",
+    postal_code: "560076",
     type: LinkType.SONY_CENTER
   },
   {
     name: "Amazon PS5 Digital/HD Cam Bundle",
     url: "https://www.amazon.in/PS5TM-Digital-HD-camera-PlayStation%C2%AE5/dp/B08NTV53TC",
+    postal_code: "560076",
     type: LinkType.AMAZON
   },
   {
@@ -88,6 +99,7 @@ export const links: Link[] = [
   {
     name: "Amazon PS5 Digital/Media Remote Bundle",
     url: "https://www.amazon.in/PS5TM-Digital-Media-Remote-PlayStation%C2%AE5/dp/B08NTVH9VG",
+    postal_code: "560076",
     type: LinkType.AMAZON
   },
   {
@@ -99,6 +111,7 @@ export const links: Link[] = [
   {
     name: "Amazon PS5 Series X",
     url: "https://www.amazon.in/dp/B08J7QX1N1/",
+    postal_code: "560076",
     type: LinkType.AMAZON
   },
   {
@@ -123,42 +136,50 @@ export const links: Link[] = [
   {
     name: "Vijaya Sales PS5 Disc",
     url: "https://ps5.vijaysales.com/Sony-PS5-Console.html",
+    postal_code: "560076",
     type: LinkType.VIJAYA_SALES
 
   },
   {
     name: "Vijaya Sales PS5 Digital",
     url: "https://ps5.vijaysales.com/Sony-PS5-Console-Digital.html",
+    postal_code: "560076",
     type: LinkType.VIJAYA_SALES
   },
   {
     name: "Vijaya Sales Series X",
     url: "https://www.vijaysales.com/xbox-series-x-gaming-console-1-tb/16215",
+    postal_code: "560076",
     type: LinkType.VIJAYA_SALES
   },
   {
     name: "Prepaidgamercard PS5 Disc",
     url: "https://prepaidgamercard.com/product/playstation-5-console-ps5/",
+    postal_code: "560076",
     type: LinkType.PPG
   },
   {
     name: "Prepaidgamercard PS5 Digital",
     url: "https://prepaidgamercard.com/product/playstation-5-digital-edition-ps5/",
+    postal_code: "560076",
     type: LinkType.PPG
   },
   {
     name: "Games the shop PS5 Disc",
     url: "https://www.gamestheshop.com/PlayStation-5-Console/5111",
+    postal_code: "560076",
     type: LinkType.GAMES_THE_SHOP
   },
   {
     name: "Games the shop PS5 Digital",
     url: "https://www.gamestheshop.com/PlayStation-5-Digital-Edition/5112",
+    postal_code: "560076",
     type: LinkType.GAMES_THE_SHOP
   },
   {
     name: "Games the shop Series X",
     url: "https://www.gamestheshop.com/microsoft%20xbox%20series%20x/5308",
+    postal_code: "560076",
     type: LinkType.GAMES_THE_SHOP
   }
 ];

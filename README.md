@@ -22,7 +22,7 @@ npm start
 You can add own product links in ```src/links.ts```
 
 ### Note:
-You can change the frequency of code execution by updating ```executeSeconds``` variable in ```src/index.ts```
+You can change the frequency of code execution by updating ```executeSeconds``` variable in ```src/index.ts```. Make sure you don't keep the time interval very small else website might block IP for some time.
 
 
 
