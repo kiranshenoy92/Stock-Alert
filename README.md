@@ -19,7 +19,10 @@ Run the code using
 npm start
 ```
 
-You can add own product links in ```src/links.ts``
+You can add own product links in ```src/links.ts```
+
+### Note:
+You can change the frequesncy of code execution by updating ```executeSeconds``` variable in ```src/index.ts```
 
 
 
