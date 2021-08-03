@@ -5,7 +5,7 @@
   "description": "Stock alert",
   "license": "MIT",
   "author": "Kiran Shenoy <kiranshenoy@yahoo.com>",
-  "repository": "",
+  "repository": "https://github.com/kiranshenoy92/Stock-Alert",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.20",
     "body-parser": "^1.19.0",
