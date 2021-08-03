@@ -3,7 +3,8 @@ import { checkPages } from "./checkPages";
 import { format } from "date-fns";
 const cron = require("node-cron");
 let count = 1;
-cron.schedule("*/70 * * * * *", async () => {
+let executeSeconds = 60;
+cron.schedule(`*/${executeSeconds} * * * * *`, async () => {
   console.log(`🚀 ${" "} Running a #${count} cycle at ${format(new Date(), "PPpp")}`);
   await checkPages();
   count += 1;
